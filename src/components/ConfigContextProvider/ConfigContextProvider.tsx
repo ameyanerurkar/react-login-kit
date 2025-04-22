@@ -1,6 +1,6 @@
 // @ts-ignore
 import React, { createContext, useContext, ReactNode } from 'react';
-import { LoginConfig } from '../../types';
+import { LoginConfig } from '@/types';
 
 // Default configuration values
 const defaultConfig: LoginConfig = {
