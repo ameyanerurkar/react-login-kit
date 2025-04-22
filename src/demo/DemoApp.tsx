@@ -1,6 +1,5 @@
 import React from 'react';
-import { LoginPage, useLoginConfig } from '../index';
-import { ConfigProvider } from '../components/ConfigContextProvider/ConfigContextProvider';
+import { LoginPage, useLoginConfig, ConfigProvider } from '../index';
 import { LoginConfig, LoginCredentials, LoginResponse, OtpDeliveryMethod } from '../types';
 
 const DemoApp: React.FC = () => {

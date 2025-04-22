@@ -5,4 +5,4 @@ export { default as LoginPage } from './components/LoginContainer/LoginContainer
 export type { LoginConfig } from './types';
 
 // Export configuration utilities
-export { useLoginConfig } from './components/ConfigContextProvider/ConfigContextProvider'; 
+export { useLoginConfig, ConfigProvider } from './components/ConfigContextProvider/ConfigContextProvider'; 
